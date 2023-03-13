@@ -72,7 +72,7 @@ ul {
 }
 
 .left .title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--Very-dark-blue);
   width: 18rem;
 }
@@ -80,6 +80,8 @@ ul {
 .left-text {
   color: var(--Dark-grayish-blue);
   width: 21rem;
+  line-height: 1.5;
+  margin-top: 0.7rem;
 }
 
 .left-read {
@@ -96,5 +98,96 @@ ul {
   padding: 1rem;
   letter-spacing: 0.3rem;
   font-weight: 700;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
 }
+
+.right {
+  grid-column: 1 span;
+  grid-row: 1 span;
+  background-color: var(--Very-dark-blue);
+  height: 32.5rem;
+}
+
+.new-container {
+  padding: 1rem;
+}
+
+.header {
+  color: var(--Soft-orange);
+  font-size: 2rem;
+}
+
+.new-texts {
+  display: flex;
+  flex-direction: column;
+  color: var(--Off-white);
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.new-text {
+  border-bottom: 1px solid var(--Grayish-blue);
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+
+.new-text:last-child  {
+  border-bottom: none;
+}
+
+.new-title {
+  color: var(--Off-white);
+  padding-bottom: 0.7rem;
+}
+
+.new-paragraph {
+  font-size: 0.9rem;
+  color: var(--Grayish-blue);
+  line-height: 1.5;
+}
+
+.bottom-container {
+  display: flex;
+  grid-column: 3 span;
+  grid-row: 1 span;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.bottom-content {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+}
+
+.bottom-content img {
+  width: 6.25rem;
+}
+
+.bottom-info {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin-left: 1rem;
+ height: 8rem;
+}
+
+.number {
+  font-size: 2rem;
+  color: var(--Grayish-blue);
+}
+
+.bottom-paragraph {
+  color: var(--Dark-grayish-blue);
+}
+
+.logo-menu {
+  display: none;
+}
+
+
+
 
